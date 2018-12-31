@@ -1,0 +1,99 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 264 176)
+	(text "PrefabStatusControl" (rect 5 0 119 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 144 25 156)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLRN" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "CLRN" (rect 21 27 52 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CP_Signal" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "CP_Signal" (rect 21 43 77 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "MainStatus[2..0]" (rect 0 0 90 14)(font "Arial" (font_size 8)))
+		(text "MainStatus[2..0]" (rect 21 59 111 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "KeyCode[3..0]" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "KeyCode[3..0]" (rect 21 75 101 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 248 32)
+		(output)
+		(text "PrefabState[1..0]" (rect 0 0 95 14)(font "Arial" (font_size 8)))
+		(text "PrefabState[1..0]" (rect 132 27 227 41)(font "Arial" (font_size 8)))
+		(line (pt 248 32)(pt 232 32)(line_width 3))
+	)
+	(port
+		(pt 248 48)
+		(output)
+		(text "EN_DFF" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "EN_DFF" (rect 183 43 227 57)(font "Arial" (font_size 8)))
+		(line (pt 248 48)(pt 232 48)(line_width 1))
+	)
+	(port
+		(pt 248 64)
+		(output)
+		(text "DCLRN" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "DCLRN" (rect 187 59 227 73)(font "Arial" (font_size 8)))
+		(line (pt 248 64)(pt 232 64)(line_width 1))
+	)
+	(port
+		(pt 248 80)
+		(output)
+		(text "IsPrefab" (rect 0 0 47 14)(font "Arial" (font_size 8)))
+		(text "IsPrefab" (rect 180 75 227 89)(font "Arial" (font_size 8)))
+		(line (pt 248 80)(pt 232 80)(line_width 1))
+	)
+	(port
+		(pt 248 96)
+		(output)
+		(text "EN_WriteFireRAM" (rect 0 0 100 14)(font "Arial" (font_size 8)))
+		(text "EN_WriteFireRAM" (rect 127 91 227 105)(font "Arial" (font_size 8)))
+		(line (pt 248 96)(pt 232 96)(line_width 1))
+	)
+	(port
+		(pt 248 112)
+		(output)
+		(text "EN_WriteTImeRAM" (rect 0 0 105 14)(font "Arial" (font_size 8)))
+		(text "EN_WriteTImeRAM" (rect 122 107 227 121)(font "Arial" (font_size 8)))
+		(line (pt 248 112)(pt 232 112)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 232 144)(line_width 1))
+	)
+)

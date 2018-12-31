@@ -1,0 +1,6 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_RAM_DQ"
+set_global_assignment -name IP_TOOL_VERSION "9.1"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "RAM10w8bit.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RAM10w8bit.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RAM10w8bit_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RAM10w8bit_syn.v"]

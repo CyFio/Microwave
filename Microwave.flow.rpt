@@ -1,0 +1,305 @@
+Flow report for Microwave
+Tue Dec 25 14:09:20 2018
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Flow Summary                                                                      ;
++------------------------------------+----------------------------------------------+
+; Flow Status                        ; Successful - Tue Dec 25 14:09:19 2018        ;
+; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
+; Revision Name                      ; Microwave                                    ;
+; Top-level Entity Name              ; Microwave                                    ;
+; Family                             ; Cyclone III                                  ;
+; Device                             ; EP3C5E144C8                                  ;
+; Timing Models                      ; Final                                        ;
+; Met timing requirements            ; N/A                                          ;
+; Total logic elements               ; 345 / 5,136 ( 7 % )                          ;
+;     Total combinational functions  ; 341 / 5,136 ( 7 % )                          ;
+;     Dedicated logic registers      ; 70 / 5,136 ( 1 % )                           ;
+; Total registers                    ; 70                                           ;
+; Total pins                         ; 40 / 95 ( 42 % )                             ;
+; Total virtual pins                 ; 0                                            ;
+; Total memory bits                  ; 240 / 423,936 ( < 1 % )                      ;
+; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                               ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                ;
++------------------------------------+----------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/25/2018 14:08:52 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Microwave           ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                               ;
++------------------------------------+--------------------------------------------------------------------------------------+---------------+-------------+----------------------+
+; Assignment Name                    ; Value                                                                                ; Default Value ; Entity Name ; Section Id           ;
++------------------------------------+--------------------------------------------------------------------------------------+---------------+-------------+----------------------+
+; COMPILER_SIGNATURE_ID              ; 268490110293812.154571813216640                                                      ; --            ; --          ; --                   ;
+; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL    ; Design Compiler                                                                      ; <None>        ; --          ; --                   ;
+; EDA_INPUT_DATA_FORMAT              ; Verilog Hdl                                                                          ; --            ; --          ; eda_design_synthesis ;
+; EDA_INPUT_VCC_NAME                 ; Vdd                                                                                  ; --            ; --          ; eda_design_synthesis ;
+; EDA_LMF_FILE                       ; altsyn.lmf                                                                           ; --            ; --          ; eda_design_synthesis ;
+; EDA_OUTPUT_DATA_FORMAT             ; Vhdl                                                                                 ; --            ; --          ; eda_simulation       ;
+; EDA_OUTPUT_DATA_FORMAT             ; Verilog Hdl                                                                          ; --            ; --          ; eda_timing_analysis  ;
+; EDA_SIMULATION_TOOL                ; Active-HDL (VHDL)                                                                    ; <None>        ; --          ; --                   ;
+; EDA_TIMING_ANALYSIS_TOOL           ; PrimeTime (Verilog)                                                                  ; <None>        ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                                                                              ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                                                                              ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                                                                              ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                                                                              ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                                                                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                                                                              ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                                                                              ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                                                                              ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_RAM_DQ                                                                           ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_RAM_DQ                                                                           ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                                                         ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                  ; --            ; --          ; --                   ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                                                                   ; --            ; --          ; --                   ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                                                                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; IsDigit.bsf                                                                          ; --            ; --          ; --                   ;
+; MISC_FILE                          ; IsDigit_bb.v                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; IsDigit_syn.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Fire_Mux.bsf                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Fire_Mux_bb.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Fire_Mux_syn.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Fire_Constant.bsf                                                                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Fire_Constant_bb.v                                                                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Fire_Constant_syn.v                                                                  ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Zero4bit.bsf                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Zero4bit_bb.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Zero4bit_syn.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; ALessThanB4bit.bsf                                                                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; ALessThanB4bit_bb.v                                                                  ; --            ; --          ; --                   ;
+; MISC_FILE                          ; ALessThanB4bit_syn.v                                                                 ; --            ; --          ; --                   ;
+; MISC_FILE                          ; One4bit.bsf                                                                          ; --            ; --          ; --                   ;
+; MISC_FILE                          ; One4bit_bb.v                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; One4bit_syn.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; ALessOrEqualB4Bit.tdf                                                                ; --            ; --          ; --                   ;
+; MISC_FILE                          ; ALessOrEqualB4Bit.bsf                                                                ; --            ; --          ; --                   ;
+; MISC_FILE                          ; ALessOrEqualB4Bit_syn.v                                                              ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Two4Bit.tdf                                                                          ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Two4Bit.bsf                                                                          ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Two4Bit_syn.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX2CH8Bit.tdf                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX2CH8Bit.bsf                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX2CH8Bit_syn.v                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; mux4Ch4Bit.bsf                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; mux4Ch4Bit_bb.v                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; mux4Ch4Bit_syn.v                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Three4bit.bsf                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Three4bit_bb.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Three4bit_syn.v                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX2Ch16Bits.bsf                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX2Ch16Bits_bb.v                                                                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX2Ch16Bits_syn.v                                                                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; ALessOrEqualB16bit.bsf                                                               ; --            ; --          ; --                   ;
+; MISC_FILE                          ; ALessOrEqualB16bit_bb.v                                                              ; --            ; --          ; --                   ;
+; MISC_FILE                          ; ALessOrEqualB16bit_syn.v                                                             ; --            ; --          ; --                   ;
+; MISC_FILE                          ; LowerThanSix4bit.tdf                                                                 ; --            ; --          ; --                   ;
+; MISC_FILE                          ; LowerThanSix4bit.bsf                                                                 ; --            ; --          ; --                   ;
+; MISC_FILE                          ; LowerThanSix4bit_syn.v                                                               ; --            ; --          ; --                   ;
+; MISC_FILE                          ; M10Countdown.bsf                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; M10Countdown_bb.v                                                                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; M10Countdown_syn.v                                                                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; M6Countdown.bsf                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; M6Countdown_bb.v                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; M6Countdown_syn.v                                                                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Compare4bit.bsf                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Compare4bit_bb.v                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Compare4bit_syn.v                                                                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Ten4bit.bsf                                                                          ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Ten4bit_bb.v                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Ten4bit_syn.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Nine4bit.bsf                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Nine4bit_bb.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Five4bit.bsf                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Five4bit_bb.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Five4bit_syn.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Equal4bit.bsf                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Equal4bit_bb.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Equal3bit.bsf                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Equal3bit_bb.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Four3bit.bsf                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Four3bit_bb.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Four3bit_syn.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX8ch16bit.bsf                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX8ch16bit_bb.v                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX8ch16bit_syn.v                                                                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; StuNumber.bsf                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; StuNumber_bb.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; StuNumber_syn.v                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX8ch4bit.bsf                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX8ch4bit_bb.v                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX8ch4bit_syn.v                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX2ch4bit.bsf                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX2ch4bit_bb.v                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; MUX2ch4bit_syn.v                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Fourteen4bit.tdf                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Fourteen4bit.bsf                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Fourteen4bit_syn.v                                                                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Seven4bit.bsf                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Seven4bit_bb.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Seven4bit_syn.v                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Eight4bit.bsf                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Eight4bit_bb.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Eight4bit_syn.v                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Zero16bit.tdf                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Zero16bit.bsf                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Zero16bit_syn.v                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Five3bit.bsf                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Five3bit_bb.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Five3bit_syn.v                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; RAM10w8bit.bsf                                                                       ; --            ; --          ; --                   ;
+; MISC_FILE                          ; RAM10w8bit_bb.v                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; RAM10w8bit_syn.v                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; RAM10w16bit.bsf                                                                      ; --            ; --          ; --                   ;
+; MISC_FILE                          ; RAM10w16bit_bb.v                                                                     ; --            ; --          ; --                   ;
+; MISC_FILE                          ; RAM10w16bit_syn.v                                                                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Two3bit.bsf                                                                          ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Two3bit_bb.v                                                                         ; --            ; --          ; --                   ;
+; MISC_FILE                          ; Two3bit_syn.v                                                                        ; --            ; --          ; --                   ;
+; MISC_FILE                          ; D:/Orange/Study/Electricitiy/LD trials/FPGA projects/Microwave_release/Microwave.dpf ; --            ; --          ; --                   ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                                                                 ; --            ; --          ; --                   ;
+; PARTITION_COLOR                    ; 16764057                                                                             ; --            ; --          ; Top                  ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                                               ; --            ; --          ; Top                  ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                                                  ; --            ; --          ; eda_blast_fpga       ;
++------------------------------------+--------------------------------------------------------------------------------------+---------------+-------------+----------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:07     ; 1.0                     ; 270 MB              ; 00:00:09                           ;
+; Fitter                    ; 00:00:06     ; 1.0                     ; 303 MB              ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 273 MB              ; 00:00:04                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 236 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 227 MB              ; 00:00:03                           ;
+; Total                     ; 00:00:23     ; --                      ; --                  ; 00:00:23                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                            ;
++---------------------------+------------------+---------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++---------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-N7P2DK2  ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-N7P2DK2  ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-N7P2DK2  ; Windows Vista ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-N7P2DK2  ; Windows Vista ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-N7P2DK2  ; Windows Vista ; 6.2        ; x86_64         ;
++---------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Microwave -c Microwave
+quartus_fit --read_settings_files=off --write_settings_files=off Microwave -c Microwave
+quartus_asm --read_settings_files=off --write_settings_files=off Microwave -c Microwave
+quartus_sta Microwave -c Microwave
+quartus_eda --read_settings_files=off --write_settings_files=off Microwave -c Microwave
+
+
+

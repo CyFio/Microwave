@@ -1,0 +1,10525 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+10
+700
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+altsyn.lmf
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Scanner
+# storage
+db|Microwave.(0).cnf
+db|Microwave.(0).cnf
+# case_insensitive
+# source_file
+scanner.bdf
+2970f8981ef96ec8a8c84a7e4aaa3255
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MatrixKeyBoard:inst|Scanner:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74138
+# storage
+db|Microwave.(1).cnf
+db|Microwave.(1).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74138.bdf
+32dc8fd1db23180dae8214abe35379
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MatrixKeyBoard:inst|Scanner:inst|74138:inst5
+MainStatusMachine:inst1|MainStatusJudge:inst2|74138:inst1
+TimeStatus:inst4|TimeDENControl:inst17|74138:inst4
+TimeStatus:inst4|TimeDENControl:inst17|74138:inst8
+TimeStatus:inst4|TimeStatusControl:inst10|74138:inst8
+TimeStatus:inst4|TimeStatusControl:inst10|74138:inst4
+TimeStatus:inst4|TimeSourceSelector:inst18|74138:inst4
+TimeStatus:inst4|TimeSourceSelector:inst18|74138:inst8
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabStatusJudge:inst4|74138:inst8
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabStatusJudge:inst4|74138:inst4
+FireStatus:inst2|FireDENControl:inst|74138:inst8
+FireStatus:inst2|FireDENControl:inst|74138:inst4
+FireStatus:inst2|FireStatusControl:inst1|74138:inst8
+FireStatus:inst2|FireStatusControl:inst1|74138:inst4
+FireStatus:inst2|FireSourceSelector:inst15|74138:inst8
+FireStatus:inst2|FireSourceSelector:inst15|74138:inst4
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(2).cnf
+db|Microwave.(2).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+QA
+-1
+3
+ENT
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+ENP
+-1
+2
+CLRN
+-1
+2
+}
+# hierarchies {
+MatrixKeyBoard:inst|Scanner:inst|74161:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+f74161
+# storage
+db|Microwave.(3).cnf
+db|Microwave.(3).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|f74161.bdf
+7336e83179d5c5b17228174483d7f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MatrixKeyBoard:inst|Scanner:inst|74161:inst|f74161:sub
+M25Counter:inst3|74161:inst|f74161:sub
+M25Counter:inst3|74161:inst1|f74161:sub
+MainStatusMachine:inst1|74161:inst|f74161:sub
+TimeStatus:inst4|74161:inst|f74161:sub
+PrefabStatus:inst16|PrefabStatusControl:inst5|74161:inst6|f74161:sub
+FireStatus:inst2|74161:inst7|f74161:sub
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+4to2Encoder
+# storage
+db|Microwave.(5).cnf
+db|Microwave.(5).cnf
+# case_insensitive
+# source_file
+4to2encoder.bdf
+49b777addc2059511faa978d2113eb1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MatrixKeyBoard:inst|KeyEncoder:inst1|4to2Encoder:inst
+MatrixKeyBoard:inst|KeyEncoder:inst1|4to2Encoder:inst4
+TimeStatus:inst4|TimeSourceSelector:inst18|4to2Encoder:inst1
+FireStatus:inst2|FireSourceSelector:inst15|4to2Encoder:inst1
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Trigger
+# storage
+db|Microwave.(4).cnf
+db|Microwave.(4).cnf
+# case_insensitive
+# source_file
+trigger.bdf
+1d50f1d238b38cd8969b91648a9158
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MatrixKeyBoard:inst|Trigger:inst2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+KeyEncoder
+# storage
+db|Microwave.(6).cnf
+db|Microwave.(6).cnf
+# case_insensitive
+# source_file
+keyencoder.bdf
+38376bace436eea56fbe6dcd3e5b93
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MatrixKeyBoard:inst|KeyEncoder:inst1
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+MatrixKeyBoard
+# storage
+db|Microwave.(7).cnf
+db|Microwave.(7).cnf
+# case_insensitive
+# source_file
+matrixkeyboard.bdf
+6efce41afe40cf4af1e417c962683c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MatrixKeyBoard:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(9).cnf
+db|Microwave.(9).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+C
+-1
+3
+B
+-1
+3
+A
+-1
+3
+D
+-1
+1
+ENP
+-1
+2
+}
+# hierarchies {
+MainStatusMachine:inst1|74161:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74154
+# storage
+db|Microwave.(11).cnf
+db|Microwave.(11).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74154.bdf
+c116bfcaf5621bfe715a74ebcf6f4a28
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MainStatusMachine:inst1|MainStatusJudge:inst2|74154:inst
+TimeStatus:inst4|TimeDENControl:inst17|74154:inst
+TimeStatus:inst4|TimeStatusControl:inst10|74154:inst
+TimeStatus:inst4|TimeSourceSelector:inst18|74154:inst12
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabStatusJudge:inst4|74154:inst
+FireStatus:inst2|FireDENControl:inst|74154:inst
+FireStatus:inst2|FireStatusControl:inst1|74154:inst
+FireStatus:inst2|FireSourceSelector:inst15|74154:inst12
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+MainStatusJudger
+# storage
+db|Microwave.(12).cnf
+db|Microwave.(12).cnf
+# case_insensitive
+# source_file
+mainstatusjudger.bdf
+dbf057f98efcfaf6d37b906afa1223bf
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(13).cnf
+db|Microwave.(13).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+ENP
+-1
+2
+C
+-1
+2
+B
+-1
+2
+A
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(14).cnf
+db|Microwave.(14).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+ENP
+-1
+2
+D
+-1
+2
+C
+-1
+2
+B
+-1
+2
+A
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+MainStatusJudge
+# storage
+db|Microwave.(10).cnf
+db|Microwave.(10).cnf
+# case_insensitive
+# source_file
+mainstatusjudge.bdf
+b11ec6cdf11ab718baf4e9f1e127f1e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MainStatusMachine:inst1|MainStatusJudge:inst2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+MainStatusMachine
+# storage
+db|Microwave.(8).cnf
+db|Microwave.(8).cnf
+# case_insensitive
+# source_file
+mainstatusmachine.bdf
+86743159d1316119bdfd2f6d2e2a677
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MainStatusMachine:inst1
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(16).cnf
+db|Microwave.(16).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QA
+-1
+3
+LDN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+ENT
+-1
+2
+ENP
+-1
+2
+CLRN
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(17).cnf
+db|Microwave.(17).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+QD
+-1
+3
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+ENP
+-1
+2
+CLRN
+-1
+2
+}
+# hierarchies {
+M25Counter:inst3|74161:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(18).cnf
+db|Microwave.(18).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+ENP
+-1
+2
+CLRN
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+M25Counter
+# storage
+db|Microwave.(15).cnf
+db|Microwave.(15).cnf
+# case_insensitive
+# source_file
+m25counter.bdf
+bb5dfc6ff4583da5c62faa415f434e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+M25Counter:inst3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(19).cnf
+db|Microwave.(19).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QA
+-1
+3
+LDN
+-1
+3
+ENP
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+ENT
+-1
+2
+CLRN
+-1
+2
+}
+# hierarchies {
+M25Counter:inst3|74161:inst1
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Blinker
+# storage
+db|Microwave.(20).cnf
+db|Microwave.(20).cnf
+# case_insensitive
+# source_file
+blinker.bdf
+621ed0becc6395d7fcc031c491a6f3a9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+MUX2CH8Bit
+# storage
+db|Microwave.(22).cnf
+db|Microwave.(22).cnf
+# case_insensitive
+# source_file
+mux2ch8bit.tdf
+2e11ff5c3921e9e357ff88c973755865
+7
+# used_port {
+sel
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data1x7
+-1
+3
+data1x6
+-1
+3
+data1x5
+-1
+3
+data1x4
+-1
+3
+data1x3
+-1
+3
+data1x2
+-1
+3
+data1x1
+-1
+3
+data1x0
+-1
+3
+data0x7
+-1
+3
+data0x6
+-1
+3
+data0x5
+-1
+3
+data0x4
+-1
+3
+data0x3
+-1
+3
+data0x2
+-1
+3
+data0x1
+-1
+3
+data0x0
+-1
+3
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11|MUX2CH8Bit:inst5
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|Microwave.(23).cnf
+db|Microwave.(23).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_SIZE
+2
+PARAMETER_UNKNOWN
+USR
+LPM_WIDTHS
+1
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_5qc
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data1_7
+-1
+3
+data1_6
+-1
+3
+data1_5
+-1
+3
+data1_4
+-1
+3
+data1_3
+-1
+3
+data1_2
+-1
+3
+data1_1
+-1
+3
+data1_0
+-1
+3
+data0_7
+-1
+3
+data0_6
+-1
+3
+data0_5
+-1
+3
+data0_4
+-1
+3
+data0_3
+-1
+3
+data0_2
+-1
+3
+data0_1
+-1
+3
+data0_0
+-1
+3
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11|MUX2CH8Bit:inst5|lpm_mux:lpm_mux_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+mux_5qc
+# storage
+db|Microwave.(24).cnf
+db|Microwave.(24).cnf
+# case_insensitive
+# source_file
+db|mux_5qc.tdf
+5bdbce1121adb5f6642c544aa1b293
+7
+# used_port {
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11|MUX2CH8Bit:inst5|lpm_mux:lpm_mux_component|mux_5qc:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+ALessOrEqualB4Bit
+# storage
+db|Microwave.(25).cnf
+db|Microwave.(25).cnf
+# case_insensitive
+# source_file
+alessorequalb4bit.tdf
+963ef267771d66ccaceab668c514c15b
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+aeb
+-1
+3
+}
+# include_file {
+lpm_compare.inc
+bbd3e8c93afb7320934629e5fb11566
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11|ALessOrEqualB4Bit:inst6
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst6
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst1
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst2
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst3
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst4
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst5
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst8
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst9
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Microwave.(26).cnf
+db|Microwave.(26).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+4
+PARAMETER_UNKNOWN
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_1vg
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+aeb
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|ALessOrEqualB4Bit:inst52|lpm_compare:lpm_compare_component
+FireStatus:inst2|FireValueLimit:inst11|ALessOrEqualB4Bit:inst6|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst6|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst1|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst2|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst3|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst4|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst5|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst8|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst9|lpm_compare:lpm_compare_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cmpr_1vg
+# storage
+db|Microwave.(27).cnf
+db|Microwave.(27).cnf
+# case_insensitive
+# source_file
+db|cmpr_1vg.tdf
+93aca35f3ba7ed734cca95efe61a31
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+aeb
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|ALessOrEqualB4Bit:inst52|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+FireStatus:inst2|FireValueLimit:inst11|ALessOrEqualB4Bit:inst6|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst6|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst1|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst2|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst3|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst4|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst5|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst8|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|ALessOrEqualB4Bit:inst9|lpm_compare:lpm_compare_component|cmpr_1vg:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+One4bit
+# storage
+db|Microwave.(28).cnf
+db|Microwave.(28).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+one4bit.v
+72f59ce285c78faa42cbcabb5cb19666
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11|One4bit:inst4
+FireStatus:inst2|FireValueLimit:inst11|One4bit:inst2
+FireStatus:inst2|FireValueLimit:inst11|One4bit:inst3
+FireStatus:inst2|One4bit:inst5
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|One4bit:inst13
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|One4bit:inst14
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(29).cnf
+db|Microwave.(29).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+1
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_7e6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11|One4bit:inst4|lpm_constant:lpm_constant_component
+FireStatus:inst2|FireValueLimit:inst11|One4bit:inst2|lpm_constant:lpm_constant_component
+FireStatus:inst2|FireValueLimit:inst11|One4bit:inst3|lpm_constant:lpm_constant_component
+FireStatus:inst2|One4bit:inst5|lpm_constant:lpm_constant_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|One4bit:inst13|lpm_constant:lpm_constant_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|One4bit:inst14|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+ALessThanB4bit
+# storage
+db|Microwave.(30).cnf
+db|Microwave.(30).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+alessthanb4bit.v
+665b106d1b9e75f6f73d96ad1a364e8a
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11|ALessThanB4bit:inst1
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Microwave.(31).cnf
+db|Microwave.(31).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_pkg
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+datab
+-1
+3
+dataa
+-1
+3
+alb
+-1
+3
+clock
+-1
+1
+aclr
+-1
+1
+clken
+-1
+2
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11|ALessThanB4bit:inst1|lpm_compare:lpm_compare_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cmpr_pkg
+# storage
+db|Microwave.(32).cnf
+db|Microwave.(32).cnf
+# case_insensitive
+# source_file
+db|cmpr_pkg.tdf
+a9a840fb1d56ddbe899bf6c49735785
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11|ALessThanB4bit:inst1|lpm_compare:lpm_compare_component|cmpr_pkg:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Zero4bit
+# storage
+db|Microwave.(33).cnf
+db|Microwave.(33).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+zero4bit.v
+7084a3ee78fa4ae78f88d5324c1b83d
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|Zero4bit:inst20
+CountDown:inst5|CountDownTimer:inst|Zero4bit:inst24
+CountDown:inst5|CountDownTimer:inst|Zero4bit:inst22
+TimeStatus:inst4|TimeValueLimit:inst19|Zero4bit:inst3
+TimeStatus:inst4|TimeValueLimit:inst19|Zero4bit:inst1
+TimeStatus:inst4|TimeValueLimit:inst19|Zero4bit:inst2
+TimeStatus:inst4|Zero4bit:inst13
+TimeStatus:inst4|Zero4bit:inst14
+TimeStatus:inst4|Zero4bit:inst15
+FireStatus:inst2|FireValueLimit:inst11|Zero4bit:inst9
+FireStatus:inst2|Zero4bit:inst3
+FireStatus:inst2|Zero4bit:inst4
+FireStatus:inst2|Zero4bit:inst13
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst32|Zero4bit:inst19
+Displayer:inst6|Displayer_Number:inst|Zero4bit:inst16
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst31|Zero4bit:inst19
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst30|Zero4bit:inst19
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst29|Zero4bit:inst19
+Zero4bit:inst17
+Zero4bit:inst19
+Zero4bit:inst18
+Zero4bit:inst20
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(34).cnf
+db|Microwave.(34).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+0
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_6e6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|Zero4bit:inst20|lpm_constant:lpm_constant_component
+CountDown:inst5|CountDownTimer:inst|Zero4bit:inst24|lpm_constant:lpm_constant_component
+CountDown:inst5|CountDownTimer:inst|Zero4bit:inst22|lpm_constant:lpm_constant_component
+TimeStatus:inst4|TimeValueLimit:inst19|Zero4bit:inst3|lpm_constant:lpm_constant_component
+TimeStatus:inst4|TimeValueLimit:inst19|Zero4bit:inst1|lpm_constant:lpm_constant_component
+TimeStatus:inst4|TimeValueLimit:inst19|Zero4bit:inst2|lpm_constant:lpm_constant_component
+TimeStatus:inst4|Zero4bit:inst13|lpm_constant:lpm_constant_component
+TimeStatus:inst4|Zero4bit:inst14|lpm_constant:lpm_constant_component
+TimeStatus:inst4|Zero4bit:inst15|lpm_constant:lpm_constant_component
+FireStatus:inst2|FireValueLimit:inst11|Zero4bit:inst9|lpm_constant:lpm_constant_component
+FireStatus:inst2|Zero4bit:inst3|lpm_constant:lpm_constant_component
+FireStatus:inst2|Zero4bit:inst4|lpm_constant:lpm_constant_component
+FireStatus:inst2|Zero4bit:inst13|lpm_constant:lpm_constant_component
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst32|Zero4bit:inst19|lpm_constant:lpm_constant_component
+Displayer:inst6|Displayer_Number:inst|Zero4bit:inst16|lpm_constant:lpm_constant_component
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst31|Zero4bit:inst19|lpm_constant:lpm_constant_component
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst30|Zero4bit:inst19|lpm_constant:lpm_constant_component
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst29|Zero4bit:inst19|lpm_constant:lpm_constant_component
+Zero4bit:inst17|lpm_constant:lpm_constant_component
+Zero4bit:inst19|lpm_constant:lpm_constant_component
+Zero4bit:inst18|lpm_constant:lpm_constant_component
+Zero4bit:inst20|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+IsDigit
+# storage
+db|Microwave.(36).cnf
+db|Microwave.(36).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+isdigit.v
+feb923484ecec329ea0e6f63ef667f9
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+TimeStatus:inst4|TimeDENControl:inst17|IsDigit:inst15
+TimeStatus:inst4|TimeStatusControl:inst10|IsDigit:inst15
+TimeStatus:inst4|TimeSourceSelector:inst18|IsDigit:inst15
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabStatusJudge:inst4|IsDigit:inst15
+FireStatus:inst2|FireDENControl:inst|IsDigit:inst15
+FireStatus:inst2|FireStatusControl:inst1|IsDigit:inst15
+FireStatus:inst2|FireSourceSelector:inst15|IsDigit:inst15
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Microwave.(37).cnf
+db|Microwave.(37).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+YES
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_0bj
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+datab
+-1
+3
+dataa
+-1
+3
+alb
+-1
+3
+clock
+-1
+1
+aclr
+-1
+1
+clken
+-1
+2
+}
+# hierarchies {
+TimeStatus:inst4|TimeDENControl:inst17|IsDigit:inst15|lpm_compare:lpm_compare_component
+TimeStatus:inst4|TimeStatusControl:inst10|IsDigit:inst15|lpm_compare:lpm_compare_component
+TimeStatus:inst4|TimeSourceSelector:inst18|IsDigit:inst15|lpm_compare:lpm_compare_component
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabStatusJudge:inst4|IsDigit:inst15|lpm_compare:lpm_compare_component
+FireStatus:inst2|FireDENControl:inst|IsDigit:inst15|lpm_compare:lpm_compare_component
+FireStatus:inst2|FireStatusControl:inst1|IsDigit:inst15|lpm_compare:lpm_compare_component
+FireStatus:inst2|FireSourceSelector:inst15|IsDigit:inst15|lpm_compare:lpm_compare_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cmpr_0bj
+# storage
+db|Microwave.(38).cnf
+db|Microwave.(38).cnf
+# case_insensitive
+# source_file
+db|cmpr_0bj.tdf
+5c93bb294e5a2b626f432b3d26ffff2e
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+}
+# hierarchies {
+TimeStatus:inst4|TimeDENControl:inst17|IsDigit:inst15|lpm_compare:lpm_compare_component|cmpr_0bj:auto_generated
+TimeStatus:inst4|TimeStatusControl:inst10|IsDigit:inst15|lpm_compare:lpm_compare_component|cmpr_0bj:auto_generated
+TimeStatus:inst4|TimeSourceSelector:inst18|IsDigit:inst15|lpm_compare:lpm_compare_component|cmpr_0bj:auto_generated
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabStatusJudge:inst4|IsDigit:inst15|lpm_compare:lpm_compare_component|cmpr_0bj:auto_generated
+FireStatus:inst2|FireDENControl:inst|IsDigit:inst15|lpm_compare:lpm_compare_component|cmpr_0bj:auto_generated
+FireStatus:inst2|FireStatusControl:inst1|IsDigit:inst15|lpm_compare:lpm_compare_component|cmpr_0bj:auto_generated
+FireStatus:inst2|FireSourceSelector:inst15|IsDigit:inst15|lpm_compare:lpm_compare_component|cmpr_0bj:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(40).cnf
+db|Microwave.(40).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+CLK
+-1
+3
+ENP
+-1
+2
+CLRN
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(41).cnf
+db|Microwave.(41).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+ENT
+-1
+2
+A
+-1
+2
+}
+# hierarchies {
+FireStatus:inst2|74161:inst7
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Fire_Mux
+# storage
+db|Microwave.(42).cnf
+db|Microwave.(42).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+fire_mux.v
+f662a25fc04e587a6a4b683856756489
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|Microwave.(43).cnf
+db|Microwave.(43).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+8
+PARAMETER_SIGNED_DEC
+USR
+LPM_SIZE
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_WIDTHS
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_8qc
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel
+-1
+3
+result
+-1
+3
+data
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+mux_8qc
+# storage
+db|Microwave.(44).cnf
+db|Microwave.(44).cnf
+# case_insensitive
+# source_file
+db|mux_8qc.tdf
+a46d1b5de4d57dbe397b8fc160eb3fc8
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data31
+-1
+3
+data30
+-1
+3
+data3
+-1
+3
+data29
+-1
+3
+data28
+-1
+3
+data27
+-1
+3
+data26
+-1
+3
+data25
+-1
+3
+data24
+-1
+3
+data23
+-1
+3
+data22
+-1
+3
+data21
+-1
+3
+data20
+-1
+3
+data2
+-1
+3
+data19
+-1
+3
+data18
+-1
+3
+data17
+-1
+3
+data16
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Fire_Constant
+# storage
+db|Microwave.(45).cnf
+db|Microwave.(45).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+fire_constant.v
+a596c09c3653fa96b6911d73f93519fe
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(46).cnf
+db|Microwave.(46).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+16
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_rf6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+4bitDff
+# storage
+db|Microwave.(39).cnf
+db|Microwave.(39).cnf
+# case_insensitive
+# source_file
+4bitdff.bdf
+db14853cde534b62f546b2ac4d2012c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+TimeStatus:inst4|4bitDff:inst4
+TimeStatus:inst4|4bitDff:inst3
+TimeStatus:inst4|4bitDff:inst2
+TimeStatus:inst4|4bitDff:inst1
+FireStatus:inst2|4bitDff:inst8
+FireStatus:inst2|4bitDff:inst9
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+FireValueLimit
+# storage
+db|Microwave.(21).cnf
+db|Microwave.(21).cnf
+# case_insensitive
+# source_file
+firevaluelimit.bdf
+8859f4ccad3b726fb144e21ed451f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FireStatus:inst2|FireValueLimit:inst11
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+mux4Ch4Bit
+# storage
+db|Microwave.(50).cnf
+db|Microwave.(50).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mux4ch4bit.v
+b7d21ea38d5d6bd47acf44aa364c74fd
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+TimeStatus:inst4|mux4Ch4Bit:inst8
+TimeStatus:inst4|mux4Ch4Bit:inst7
+TimeStatus:inst4|mux4Ch4Bit:inst6
+TimeStatus:inst4|mux4Ch4Bit:inst5
+FireStatus:inst2|mux4Ch4Bit:inst2
+FireStatus:inst2|mux4Ch4Bit:inst12
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|Microwave.(51).cnf
+db|Microwave.(51).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_SIZE
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_WIDTHS
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_4qc
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel
+-1
+3
+result
+-1
+3
+data
+-1
+3
+}
+# hierarchies {
+TimeStatus:inst4|mux4Ch4Bit:inst8|lpm_mux:lpm_mux_component
+TimeStatus:inst4|mux4Ch4Bit:inst7|lpm_mux:lpm_mux_component
+TimeStatus:inst4|mux4Ch4Bit:inst6|lpm_mux:lpm_mux_component
+TimeStatus:inst4|mux4Ch4Bit:inst5|lpm_mux:lpm_mux_component
+FireStatus:inst2|mux4Ch4Bit:inst2|lpm_mux:lpm_mux_component
+FireStatus:inst2|mux4Ch4Bit:inst12|lpm_mux:lpm_mux_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+mux_4qc
+# storage
+db|Microwave.(52).cnf
+db|Microwave.(52).cnf
+# case_insensitive
+# source_file
+db|mux_4qc.tdf
+a74650ed46b5bb726dab05bde1f7ea5
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+TimeStatus:inst4|mux4Ch4Bit:inst8|lpm_mux:lpm_mux_component|mux_4qc:auto_generated
+TimeStatus:inst4|mux4Ch4Bit:inst7|lpm_mux:lpm_mux_component|mux_4qc:auto_generated
+TimeStatus:inst4|mux4Ch4Bit:inst6|lpm_mux:lpm_mux_component|mux_4qc:auto_generated
+TimeStatus:inst4|mux4Ch4Bit:inst5|lpm_mux:lpm_mux_component|mux_4qc:auto_generated
+FireStatus:inst2|mux4Ch4Bit:inst2|lpm_mux:lpm_mux_component|mux_4qc:auto_generated
+FireStatus:inst2|mux4Ch4Bit:inst12|lpm_mux:lpm_mux_component|mux_4qc:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+FireStatusControl
+# storage
+db|Microwave.(35).cnf
+db|Microwave.(35).cnf
+# case_insensitive
+# source_file
+firestatuscontrol.bdf
+5fa2bcc295f5e04e785a5ddc96bccc62
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FireStatus:inst2|FireStatusControl:inst1
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+FireDENControl
+# storage
+db|Microwave.(48).cnf
+db|Microwave.(48).cnf
+# case_insensitive
+# source_file
+firedencontrol.bdf
+1cd997940321d1cc3ddfa5dc6d3518a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FireStatus:inst2|FireDENControl:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+TimeValueLimit
+# storage
+db|Microwave.(49).cnf
+db|Microwave.(49).cnf
+# case_insensitive
+# source_file
+timevaluelimit.bdf
+318f4a1b6422dfa6c4bcdc88aa1dc334
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+TimeStatus:inst4|TimeValueLimit:inst19
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+ALessOrEqualB16bit
+# storage
+db|Microwave.(56).cnf
+db|Microwave.(56).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+alessorequalb16bit.v
+37ba58766a1a552f3c45e03bc6758
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+TimeStatus:inst4|TimeValueLimit:inst19|ALessOrEqualB16bit:inst5
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Microwave.(57).cnf
+db|Microwave.(57).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+16
+PARAMETER_SIGNED_DEC
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_hpg
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+datab
+-1
+3
+dataa
+-1
+3
+aleb
+-1
+3
+clock
+-1
+1
+aclr
+-1
+1
+clken
+-1
+2
+}
+# hierarchies {
+TimeStatus:inst4|TimeValueLimit:inst19|ALessOrEqualB16bit:inst5|lpm_compare:lpm_compare_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cmpr_hpg
+# storage
+db|Microwave.(58).cnf
+db|Microwave.(58).cnf
+# case_insensitive
+# source_file
+db|cmpr_hpg.tdf
+6f3c251d2a677f129393ab94ea409a
+7
+# used_port {
+datab9
+-1
+3
+datab8
+-1
+3
+datab7
+-1
+3
+datab6
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab15
+-1
+3
+datab14
+-1
+3
+datab13
+-1
+3
+datab12
+-1
+3
+datab11
+-1
+3
+datab10
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa9
+-1
+3
+dataa8
+-1
+3
+dataa7
+-1
+3
+dataa6
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa15
+-1
+3
+dataa14
+-1
+3
+dataa13
+-1
+3
+dataa12
+-1
+3
+dataa11
+-1
+3
+dataa10
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aleb
+-1
+3
+}
+# hierarchies {
+TimeStatus:inst4|TimeValueLimit:inst19|ALessOrEqualB16bit:inst5|lpm_compare:lpm_compare_component|cmpr_hpg:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Three4bit
+# storage
+db|Microwave.(59).cnf
+db|Microwave.(59).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+three4bit.v
+d250bf50585c75dca55da9945ea038d7
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|Three4bit:inst26
+TimeStatus:inst4|TimeValueLimit:inst19|Three4bit:inst
+TimeStatus:inst4|Three4bit:inst9
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Three4bit:inst16
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(60).cnf
+db|Microwave.(60).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+3
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_9e6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|Three4bit:inst26|lpm_constant:lpm_constant_component
+TimeStatus:inst4|TimeValueLimit:inst19|Three4bit:inst|lpm_constant:lpm_constant_component
+TimeStatus:inst4|Three4bit:inst9|lpm_constant:lpm_constant_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Three4bit:inst16|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+MUX2Ch16Bits
+# storage
+db|Microwave.(61).cnf
+db|Microwave.(61).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mux2ch16bits.v
+a1fee43c884feec4d1726b1ded1a83
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+TimeStatus:inst4|TimeValueLimit:inst19|MUX2Ch16Bits:inst4
+Displayer:inst6|FireLit:inst3|MUX2Ch16Bits:inst1
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|Microwave.(62).cnf
+db|Microwave.(62).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+16
+PARAMETER_SIGNED_DEC
+USR
+LPM_SIZE
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_WIDTHS
+1
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_krc
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel
+-1
+3
+result
+-1
+3
+data
+-1
+3
+}
+# hierarchies {
+TimeStatus:inst4|TimeValueLimit:inst19|MUX2Ch16Bits:inst4|lpm_mux:lpm_mux_component
+Displayer:inst6|FireLit:inst3|MUX2Ch16Bits:inst1|lpm_mux:lpm_mux_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+mux_krc
+# storage
+db|Microwave.(63).cnf
+db|Microwave.(63).cnf
+# case_insensitive
+# source_file
+db|mux_krc.tdf
+85c43e70b6fcbe3841a77b3c0dabc69
+7
+# used_port {
+sel0
+-1
+3
+result9
+-1
+3
+result8
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result15
+-1
+3
+result14
+-1
+3
+result13
+-1
+3
+result12
+-1
+3
+result11
+-1
+3
+result10
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data31
+-1
+3
+data30
+-1
+3
+data3
+-1
+3
+data29
+-1
+3
+data28
+-1
+3
+data27
+-1
+3
+data26
+-1
+3
+data25
+-1
+3
+data24
+-1
+3
+data23
+-1
+3
+data22
+-1
+3
+data21
+-1
+3
+data20
+-1
+3
+data2
+-1
+3
+data19
+-1
+3
+data18
+-1
+3
+data17
+-1
+3
+data16
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+TimeStatus:inst4|TimeValueLimit:inst19|MUX2Ch16Bits:inst4|lpm_mux:lpm_mux_component|mux_krc:auto_generated
+Displayer:inst6|FireLit:inst3|MUX2Ch16Bits:inst1|lpm_mux:lpm_mux_component|mux_krc:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+LowerThanSix4bit
+# storage
+db|Microwave.(64).cnf
+db|Microwave.(64).cnf
+# case_insensitive
+# source_file
+lowerthansix4bit.tdf
+f081a41edd9ba73218526f1ba8f5a87d
+7
+# used_port {
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+}
+# include_file {
+lpm_compare.inc
+bbd3e8c93afb7320934629e5fb11566
+}
+# hierarchies {
+TimeStatus:inst4|TimeDENControl:inst17|LowerThanSix4bit:inst1
+TimeStatus:inst4|TimeStatusControl:inst10|LowerThanSix4bit:inst1
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Microwave.(65).cnf
+db|Microwave.(65).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+4
+PARAMETER_UNKNOWN
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+YES
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_s2k
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aleb
+-1
+3
+alb
+-1
+3
+aeb
+-1
+3
+datab3
+-1
+1
+datab0
+-1
+1
+datab2
+-1
+2
+datab1
+-1
+2
+}
+# hierarchies {
+TimeStatus:inst4|TimeDENControl:inst17|LowerThanSix4bit:inst1|lpm_compare:lpm_compare_component
+TimeStatus:inst4|TimeStatusControl:inst10|LowerThanSix4bit:inst1|lpm_compare:lpm_compare_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cmpr_s2k
+# storage
+db|Microwave.(66).cnf
+db|Microwave.(66).cnf
+# case_insensitive
+# source_file
+db|cmpr_s2k.tdf
+0cb9d12b7a817a99ebb895b4851b75
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aleb
+-1
+3
+alb
+-1
+3
+aeb
+-1
+3
+}
+# hierarchies {
+TimeStatus:inst4|TimeDENControl:inst17|LowerThanSix4bit:inst1|lpm_compare:lpm_compare_component|cmpr_s2k:auto_generated
+TimeStatus:inst4|TimeStatusControl:inst10|LowerThanSix4bit:inst1|lpm_compare:lpm_compare_component|cmpr_s2k:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(68).cnf
+db|Microwave.(68).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+ENP
+-1
+2
+A
+-1
+2
+}
+# hierarchies {
+TimeStatus:inst4|74161:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+TimeDENControl
+# storage
+db|Microwave.(53).cnf
+db|Microwave.(53).cnf
+# case_insensitive
+# source_file
+timedencontrol.bdf
+c31141e76627884f52d59376b18c2c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+TimeStatus:inst4|TimeDENControl:inst17
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+TimeStatusControl
+# storage
+db|Microwave.(54).cnf
+db|Microwave.(54).cnf
+# case_insensitive
+# source_file
+timestatuscontrol.bdf
+51a1eefd6406a40e922979f88cfc63b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+TimeStatus:inst4|TimeStatusControl:inst10
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+FireSourceSelector
+# storage
+db|Microwave.(47).cnf
+db|Microwave.(47).cnf
+# case_insensitive
+# source_file
+firesourceselector.bdf
+6b0454c7ea254c19c47d31bdfc549
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FireStatus:inst2|FireSourceSelector:inst15
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+TimeSourceSelector
+# storage
+db|Microwave.(67).cnf
+db|Microwave.(67).cnf
+# case_insensitive
+# source_file
+timesourceselector.bdf
+9afd645e86d5aff57d2b37a81ad35a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+TimeStatus:inst4|TimeSourceSelector:inst18
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+FireStatus
+# storage
+db|Microwave.(69).cnf
+db|Microwave.(69).cnf
+# case_insensitive
+# source_file
+firestatus.bdf
+c3bce80d2162c411d96d26e0f47e1d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FireStatus:inst2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Compare4bit
+# storage
+db|Microwave.(71).cnf
+db|Microwave.(71).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+compare4bit.v
+9ffe92ee45a7184cb9be31812241378b
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Microwave.(72).cnf
+db|Microwave.(72).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_4ii
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+datab
+-1
+3
+dataa
+-1
+3
+aneb
+-1
+3
+aleb
+-1
+3
+alb
+-1
+3
+ageb
+-1
+3
+agb
+-1
+3
+aeb
+-1
+3
+clock
+-1
+1
+aclr
+-1
+1
+clken
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cmpr_4ii
+# storage
+db|Microwave.(73).cnf
+db|Microwave.(73).cnf
+# case_insensitive
+# source_file
+db|cmpr_4ii.tdf
+268c3ed9214e6a817b228fe5d8bfa886
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aneb
+-1
+3
+aleb
+-1
+3
+alb
+-1
+3
+ageb
+-1
+3
+agb
+-1
+3
+aeb
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(75).cnf
+db|Microwave.(75).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+6
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_5em
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sload
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_5em
+# storage
+db|Microwave.(76).cnf
+db|Microwave.(76).cnf
+# case_insensitive
+# source_file
+db|cntr_5em.tdf
+66937b8885a7627adbb337fafaa595ca
+7
+# used_port {
+sload
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Nine4bit
+# storage
+db|Microwave.(77).cnf
+db|Microwave.(77).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+nine4bit.v
+ff5844bc8a37ac6053b193eff3ae7931
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|Nine4bit:inst42
+CountDown:inst5|CountDownTimer:inst|Nine4bit:inst47
+CountDown:inst5|CountDownTimer:inst|Nine4bit:inst58
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Nine4bit:inst23
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(78).cnf
+db|Microwave.(78).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+9
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_fe6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|Nine4bit:inst42|lpm_constant:lpm_constant_component
+CountDown:inst5|CountDownTimer:inst|Nine4bit:inst47|lpm_constant:lpm_constant_component
+CountDown:inst5|CountDownTimer:inst|Nine4bit:inst58|lpm_constant:lpm_constant_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Nine4bit:inst23|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(80).cnf
+db|Microwave.(80).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+10
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_gfm
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sload
+-1
+3
+q
+-1
+3
+data
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aclr
+-1
+3
+sset
+-1
+1
+sclr
+-1
+1
+aset
+-1
+1
+aload
+-1
+1
+updown
+-1
+2
+cin
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_gfm
+# storage
+db|Microwave.(81).cnf
+db|Microwave.(81).cnf
+# case_insensitive
+# source_file
+db|cntr_gfm.tdf
+7f80f847562e42e350ddc5a4c056f76d
+7
+# used_port {
+sload
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Five4bit
+# storage
+db|Microwave.(82).cnf
+db|Microwave.(82).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+five4bit.v
+ac148a2396979d69efb539b118a457f6
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|Five4bit:inst45
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Five4bit:inst18
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(83).cnf
+db|Microwave.(83).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+5
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_be6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|Five4bit:inst45|lpm_constant:lpm_constant_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Five4bit:inst18|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(79).cnf
+db|Microwave.(79).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+10
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_h0n
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sload
+-1
+3
+q
+-1
+3
+data
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+sset
+-1
+1
+sclr
+-1
+1
+aset
+-1
+1
+updown
+-1
+2
+cin
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_h0n
+# storage
+db|Microwave.(84).cnf
+db|Microwave.(84).cnf
+# case_insensitive
+# source_file
+db|cntr_h0n.tdf
+856de97b40fd6cac95f5c3ba7962e2
+7
+# used_port {
+sload
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(86).cnf
+db|Microwave.(86).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+6
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_6vm
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sload
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_6vm
+# storage
+db|Microwave.(87).cnf
+db|Microwave.(87).cnf
+# case_insensitive
+# source_file
+db|cntr_6vm.tdf
+f428f9c7ca507fb926f0424f4c2799
+7
+# used_port {
+sload
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(85).cnf
+db|Microwave.(85).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+10
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_iql
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q
+-1
+3
+data
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+sset
+-1
+1
+sload
+-1
+1
+sclr
+-1
+1
+aset
+-1
+1
+updown
+-1
+2
+clk_en
+-1
+2
+cin
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_iql
+# storage
+db|Microwave.(88).cnf
+db|Microwave.(88).cnf
+# case_insensitive
+# source_file
+db|cntr_iql.tdf
+deeb4789e2be37116e7db61e395be79
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(90).cnf
+db|Microwave.(90).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+6
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_7pl
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_7pl
+# storage
+db|Microwave.(91).cnf
+db|Microwave.(91).cnf
+# case_insensitive
+# source_file
+db|cntr_7pl.tdf
+6c80f6d1d4be9923f2b3c7a6877e331
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(89).cnf
+db|Microwave.(89).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_3fk
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q
+-1
+3
+data
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+sset
+-1
+1
+sload
+-1
+1
+sclr
+-1
+1
+aset
+-1
+1
+updown
+-1
+2
+clk_en
+-1
+2
+cin
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_3fk
+# storage
+db|Microwave.(92).cnf
+db|Microwave.(92).cnf
+# case_insensitive
+# source_file
+db|cntr_3fk.tdf
+5eda989f5c3ab457a2c78d7cfedd4ad6
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cout
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Equal4bit
+# storage
+db|Microwave.(93).cnf
+db|Microwave.(93).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+equal4bit.v
+3c4c5f5784b6e02b9555de2231b95f
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+OpenDoor:inst7|Equal4bit:inst3
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst50
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst41
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst44
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst46
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst48
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst49
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst56
+CountDown:inst5|CountDownControl:inst13|Equal4bit:inst
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Equal4bit:inst11
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Microwave.(94).cnf
+db|Microwave.(94).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_ikg
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+datab
+-1
+3
+dataa
+-1
+3
+aeb
+-1
+3
+clock
+-1
+1
+aclr
+-1
+1
+clken
+-1
+2
+}
+# hierarchies {
+OpenDoor:inst7|Equal4bit:inst3|lpm_compare:lpm_compare_component
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst50|lpm_compare:lpm_compare_component
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst41|lpm_compare:lpm_compare_component
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst44|lpm_compare:lpm_compare_component
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst46|lpm_compare:lpm_compare_component
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst48|lpm_compare:lpm_compare_component
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst49|lpm_compare:lpm_compare_component
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst56|lpm_compare:lpm_compare_component
+CountDown:inst5|CountDownControl:inst13|Equal4bit:inst|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Equal4bit:inst11|lpm_compare:lpm_compare_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cmpr_ikg
+# storage
+db|Microwave.(95).cnf
+db|Microwave.(95).cnf
+# case_insensitive
+# source_file
+db|cmpr_ikg.tdf
+9c284b1bc9cd97ff63de6aa01fdaf23
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+}
+# hierarchies {
+OpenDoor:inst7|Equal4bit:inst3|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst50|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst41|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst44|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst46|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst48|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst49|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+CountDown:inst5|CountDownTimer:inst|Equal4bit:inst56|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+CountDown:inst5|CountDownControl:inst13|Equal4bit:inst|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Equal4bit:inst11|lpm_compare:lpm_compare_component|cmpr_ikg:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(96).cnf
+db|Microwave.(96).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+10
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_nbl
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q
+-1
+3
+data
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+sset
+-1
+1
+sload
+-1
+1
+sclr
+-1
+1
+aset
+-1
+1
+updown
+-1
+2
+clk_en
+-1
+2
+cin
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_nbl
+# storage
+db|Microwave.(97).cnf
+db|Microwave.(97).cnf
+# case_insensitive
+# source_file
+db|cntr_nbl.tdf
+9de2f71450529ff9995aa6252c2484e5
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(99).cnf
+db|Microwave.(99).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+6
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_cal
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q
+-1
+3
+data
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+sset
+-1
+1
+sload
+-1
+1
+sclr
+-1
+1
+aset
+-1
+1
+updown
+-1
+2
+clk_en
+-1
+2
+cin
+-1
+2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_cal
+# storage
+db|Microwave.(100).cnf
+db|Microwave.(100).cnf
+# case_insensitive
+# source_file
+db|cntr_cal.tdf
+a84ccad41c2a9bf395fed9e9520b1e2
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+aclr
+-1
+3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+M10Countdown
+# storage
+db|Microwave.(74).cnf
+db|Microwave.(74).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+m10countdown.v
+522b82103df361c03e60ccabe89f7d4f
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|M10Countdown:inst37
+CountDown:inst5|CountDownTimer:inst|M10Countdown:inst
+CountDown:inst5|CountDownTimer:inst|M10Countdown:inst38
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(98).cnf
+db|Microwave.(98).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+10
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_ltk
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q
+-1
+3
+data
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+sset
+-1
+1
+sload
+-1
+1
+sclr
+-1
+1
+aset
+-1
+1
+aclr
+-1
+1
+updown
+-1
+2
+clk_en
+-1
+2
+cin
+-1
+2
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|M10Countdown:inst37|lpm_counter:lpm_counter_component
+CountDown:inst5|CountDownTimer:inst|M10Countdown:inst|lpm_counter:lpm_counter_component
+CountDown:inst5|CountDownTimer:inst|M10Countdown:inst38|lpm_counter:lpm_counter_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_ltk
+# storage
+db|Microwave.(101).cnf
+db|Microwave.(101).cnf
+# case_insensitive
+# source_file
+db|cntr_ltk.tdf
+8996596c2e87c5ca249da27541f26f6
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|M10Countdown:inst37|lpm_counter:lpm_counter_component|cntr_ltk:auto_generated
+CountDown:inst5|CountDownTimer:inst|M10Countdown:inst|lpm_counter:lpm_counter_component|cntr_ltk:auto_generated
+CountDown:inst5|CountDownTimer:inst|M10Countdown:inst38|lpm_counter:lpm_counter_component|cntr_ltk:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+M6Countdown
+# storage
+db|Microwave.(102).cnf
+db|Microwave.(102).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+m6countdown.v
+cfa75a2befb0f3916cd3dfd759f89e7
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|M6Countdown:inst43
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Microwave.(103).cnf
+db|Microwave.(103).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DOWN
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+6
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_ask
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q
+-1
+3
+data
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+sset
+-1
+1
+sload
+-1
+1
+sclr
+-1
+1
+aset
+-1
+1
+aclr
+-1
+1
+updown
+-1
+2
+clk_en
+-1
+2
+cin
+-1
+2
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|M6Countdown:inst43|lpm_counter:lpm_counter_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cntr_ask
+# storage
+db|Microwave.(104).cnf
+db|Microwave.(104).cnf
+# case_insensitive
+# source_file
+db|cntr_ask.tdf
+94cec1d7e951dddf587a31a9a41ca59
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|M6Countdown:inst43|lpm_counter:lpm_counter_component|cntr_ask:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+ALessOrEqualB4Bit
+# storage
+db|Microwave.(105).cnf
+db|Microwave.(105).cnf
+# case_insensitive
+# source_file
+alessorequalb4bit.tdf
+963ef267771d66ccaceab668c514c15b
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+}
+# include_file {
+lpm_compare.inc
+bbd3e8c93afb7320934629e5fb11566
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst|ALessOrEqualB4Bit:inst52
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+CountDownTimer
+# storage
+db|Microwave.(70).cnf
+db|Microwave.(70).cnf
+# case_insensitive
+# source_file
+countdowntimer.bdf
+30b3a9ab8ddeb61f2bd44d921793f9e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CountDown:inst5|CountDownTimer:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Ten4bit
+# storage
+db|Microwave.(107).cnf
+db|Microwave.(107).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+ten4bit.v
+6c0ef27bf062af6cb6fbb6dada35
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+CountDown:inst5|CountDownControl:inst13|Ten4bit:inst7
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(108).cnf
+db|Microwave.(108).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+10
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_nf6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownControl:inst13|Ten4bit:inst7|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Equal3bit
+# storage
+db|Microwave.(109).cnf
+db|Microwave.(109).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+equal3bit.v
+93c8dc7db63fb84ec9aeaccc1b3667c
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+CountDown:inst5|CountDownControl:inst13|Equal3bit:inst4
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Equal3bit:inst
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Equal3bit:inst3
+Displayer:inst6|FireLit:inst3|Equal3bit:inst4
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Microwave.(110).cnf
+db|Microwave.(110).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_hkg
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+datab
+-1
+3
+dataa
+-1
+3
+aeb
+-1
+3
+clock
+-1
+1
+aclr
+-1
+1
+clken
+-1
+2
+}
+# hierarchies {
+CountDown:inst5|CountDownControl:inst13|Equal3bit:inst4|lpm_compare:lpm_compare_component
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Equal3bit:inst|lpm_compare:lpm_compare_component
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Equal3bit:inst3|lpm_compare:lpm_compare_component
+Displayer:inst6|FireLit:inst3|Equal3bit:inst4|lpm_compare:lpm_compare_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+cmpr_hkg
+# storage
+db|Microwave.(111).cnf
+db|Microwave.(111).cnf
+# case_insensitive
+# source_file
+db|cmpr_hkg.tdf
+319ec83a1638b28bf39eb31bd9475e3
+7
+# used_port {
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownControl:inst13|Equal3bit:inst4|lpm_compare:lpm_compare_component|cmpr_hkg:auto_generated
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Equal3bit:inst|lpm_compare:lpm_compare_component|cmpr_hkg:auto_generated
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Equal3bit:inst3|lpm_compare:lpm_compare_component|cmpr_hkg:auto_generated
+Displayer:inst6|FireLit:inst3|Equal3bit:inst4|lpm_compare:lpm_compare_component|cmpr_hkg:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Four3bit
+# storage
+db|Microwave.(112).cnf
+db|Microwave.(112).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+four3bit.v
+193dc0769dc6abfb66cf7989e243d2
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+CountDown:inst5|CountDownControl:inst13|Four3bit:inst6
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Four3bit:inst4
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(113).cnf
+db|Microwave.(113).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+4
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_ae6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+CountDown:inst5|CountDownControl:inst13|Four3bit:inst6|lpm_constant:lpm_constant_component
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Four3bit:inst4|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+CountDownControl
+# storage
+db|Microwave.(106).cnf
+db|Microwave.(106).cnf
+# case_insensitive
+# source_file
+countdowncontrol.bdf
+df3e57bbf4d983b37f4545c9b04d7b11
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CountDown:inst5|CountDownControl:inst13
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+CountDown
+# storage
+db|Microwave.(114).cnf
+db|Microwave.(114).cnf
+# case_insensitive
+# source_file
+countdown.bdf
+a2b94c16b926babbf94c7f6aa6157d7b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CountDown:inst5
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+MUX2ch4bit
+# storage
+db|Microwave.(116).cnf
+db|Microwave.(116).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mux2ch4bit.v
+5da65e156f2c510dee0c426fc87e8a7
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst32|MUX2ch4bit:inst18
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst31|MUX2ch4bit:inst18
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst30|MUX2ch4bit:inst18
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst29|MUX2ch4bit:inst18
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|Microwave.(117).cnf
+db|Microwave.(117).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_SIZE
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_WIDTHS
+1
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_1qc
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel
+-1
+3
+result
+-1
+3
+data
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst32|MUX2ch4bit:inst18|lpm_mux:lpm_mux_component
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst31|MUX2ch4bit:inst18|lpm_mux:lpm_mux_component
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst30|MUX2ch4bit:inst18|lpm_mux:lpm_mux_component
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst29|MUX2ch4bit:inst18|lpm_mux:lpm_mux_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+mux_1qc
+# storage
+db|Microwave.(118).cnf
+db|Microwave.(118).cnf
+# case_insensitive
+# source_file
+db|mux_1qc.tdf
+a13c5d9de66a6aaeae269842b5d5924
+7
+# used_port {
+sel0
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst32|MUX2ch4bit:inst18|lpm_mux:lpm_mux_component|mux_1qc:auto_generated
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst31|MUX2ch4bit:inst18|lpm_mux:lpm_mux_component|mux_1qc:auto_generated
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst30|MUX2ch4bit:inst18|lpm_mux:lpm_mux_component|mux_1qc:auto_generated
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst29|MUX2ch4bit:inst18|lpm_mux:lpm_mux_component|mux_1qc:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+MUX8ch4bit
+# storage
+db|Microwave.(119).cnf
+db|Microwave.(119).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mux8ch4bit.v
+1d9b2f4ae9cb7edaaff48fba5712e1
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|MUX8ch4bit:inst12
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|Microwave.(120).cnf
+db|Microwave.(120).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_SIZE
+8
+PARAMETER_SIGNED_DEC
+USR
+LPM_WIDTHS
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_9qc
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel
+-1
+3
+result
+-1
+3
+data
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|MUX8ch4bit:inst12|lpm_mux:lpm_mux_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+mux_9qc
+# storage
+db|Microwave.(121).cnf
+db|Microwave.(121).cnf
+# case_insensitive
+# source_file
+db|mux_9qc.tdf
+1c1ddc4c542be52b90e976663c5e1de
+7
+# used_port {
+sel2
+-1
+3
+sel1
+-1
+3
+sel0
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data31
+-1
+3
+data30
+-1
+3
+data3
+-1
+3
+data29
+-1
+3
+data28
+-1
+3
+data27
+-1
+3
+data26
+-1
+3
+data25
+-1
+3
+data24
+-1
+3
+data23
+-1
+3
+data22
+-1
+3
+data21
+-1
+3
+data20
+-1
+3
+data2
+-1
+3
+data19
+-1
+3
+data18
+-1
+3
+data17
+-1
+3
+data16
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|MUX8ch4bit:inst12|lpm_mux:lpm_mux_component|mux_9qc:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+MUX8ch16bit
+# storage
+db|Microwave.(122).cnf
+db|Microwave.(122).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mux8ch16bit.v
+98e74cf446165faf7e82a0b7ba2e18a
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|MUX8ch16bit:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|Microwave.(123).cnf
+db|Microwave.(123).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+16
+PARAMETER_SIGNED_DEC
+USR
+LPM_SIZE
+8
+PARAMETER_SIGNED_DEC
+USR
+LPM_WIDTHS
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_src
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel
+-1
+3
+result
+-1
+3
+data
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|MUX8ch16bit:inst|lpm_mux:lpm_mux_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+mux_src
+# storage
+db|Microwave.(124).cnf
+db|Microwave.(124).cnf
+# case_insensitive
+# source_file
+db|mux_src.tdf
+ab8368acb36fd4b3ed9c2192d61697c
+7
+# used_port {
+sel2
+-1
+3
+sel1
+-1
+3
+sel0
+-1
+3
+result9
+-1
+3
+result8
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result15
+-1
+3
+result14
+-1
+3
+result13
+-1
+3
+result12
+-1
+3
+result11
+-1
+3
+result10
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data99
+-1
+3
+data98
+-1
+3
+data97
+-1
+3
+data96
+-1
+3
+data95
+-1
+3
+data94
+-1
+3
+data93
+-1
+3
+data92
+-1
+3
+data91
+-1
+3
+data90
+-1
+3
+data9
+-1
+3
+data89
+-1
+3
+data88
+-1
+3
+data87
+-1
+3
+data86
+-1
+3
+data85
+-1
+3
+data84
+-1
+3
+data83
+-1
+3
+data82
+-1
+3
+data81
+-1
+3
+data80
+-1
+3
+data8
+-1
+3
+data79
+-1
+3
+data78
+-1
+3
+data77
+-1
+3
+data76
+-1
+3
+data75
+-1
+3
+data74
+-1
+3
+data73
+-1
+3
+data72
+-1
+3
+data71
+-1
+3
+data70
+-1
+3
+data7
+-1
+3
+data69
+-1
+3
+data68
+-1
+3
+data67
+-1
+3
+data66
+-1
+3
+data65
+-1
+3
+data64
+-1
+3
+data63
+-1
+3
+data62
+-1
+3
+data61
+-1
+3
+data60
+-1
+3
+data6
+-1
+3
+data59
+-1
+3
+data58
+-1
+3
+data57
+-1
+3
+data56
+-1
+3
+data55
+-1
+3
+data54
+-1
+3
+data53
+-1
+3
+data52
+-1
+3
+data51
+-1
+3
+data50
+-1
+3
+data5
+-1
+3
+data49
+-1
+3
+data48
+-1
+3
+data47
+-1
+3
+data46
+-1
+3
+data45
+-1
+3
+data44
+-1
+3
+data43
+-1
+3
+data42
+-1
+3
+data41
+-1
+3
+data40
+-1
+3
+data4
+-1
+3
+data39
+-1
+3
+data38
+-1
+3
+data37
+-1
+3
+data36
+-1
+3
+data35
+-1
+3
+data34
+-1
+3
+data33
+-1
+3
+data32
+-1
+3
+data31
+-1
+3
+data30
+-1
+3
+data3
+-1
+3
+data29
+-1
+3
+data28
+-1
+3
+data27
+-1
+3
+data26
+-1
+3
+data25
+-1
+3
+data24
+-1
+3
+data23
+-1
+3
+data22
+-1
+3
+data21
+-1
+3
+data20
+-1
+3
+data2
+-1
+3
+data19
+-1
+3
+data18
+-1
+3
+data17
+-1
+3
+data16
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data127
+-1
+3
+data126
+-1
+3
+data125
+-1
+3
+data124
+-1
+3
+data123
+-1
+3
+data122
+-1
+3
+data121
+-1
+3
+data120
+-1
+3
+data12
+-1
+3
+data119
+-1
+3
+data118
+-1
+3
+data117
+-1
+3
+data116
+-1
+3
+data115
+-1
+3
+data114
+-1
+3
+data113
+-1
+3
+data112
+-1
+3
+data111
+-1
+3
+data110
+-1
+3
+data11
+-1
+3
+data109
+-1
+3
+data108
+-1
+3
+data107
+-1
+3
+data106
+-1
+3
+data105
+-1
+3
+data104
+-1
+3
+data103
+-1
+3
+data102
+-1
+3
+data101
+-1
+3
+data100
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|MUX8ch16bit:inst|lpm_mux:lpm_mux_component|mux_src:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+StuNumber
+# storage
+db|Microwave.(125).cnf
+db|Microwave.(125).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+stunumber.v
+57236c17051ef959cf52f3e851fc2
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|StuNumber:inst5
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(126).cnf
+db|Microwave.(126).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+16
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+28951
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_pk6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|StuNumber:inst5|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+NumberFlashControler
+# storage
+db|Microwave.(127).cnf
+db|Microwave.(127).cnf
+# case_insensitive
+# source_file
+numberflashcontroler.bdf
+bfed597ba163aa7f835fa22c0fd6ba4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst32
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst31
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst30
+Displayer:inst6|Displayer_Number:inst|NumberFlashControler:inst29
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Fourteen4bit
+# storage
+db|Microwave.(128).cnf
+db|Microwave.(128).cnf
+# case_insensitive
+# source_file
+fourteen4bit.tdf
+376bede62a6ad3aa4ae8c6ed23c79d40
+7
+# used_port {
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+OpenDoor:inst7|Fourteen4bit:inst4
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(129).cnf
+db|Microwave.(129).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+14
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_sf6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+OpenDoor:inst7|Fourteen4bit:inst4|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+OpenDoor
+# storage
+db|Microwave.(115).cnf
+db|Microwave.(115).cnf
+# case_insensitive
+# source_file
+opendoor.bdf
+ff91bb4f441ec06442fa937aecf7255b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+OpenDoor:inst7
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+FireLitDecoder
+# storage
+db|Microwave.(130).cnf
+db|Microwave.(130).cnf
+# case_insensitive
+# source_file
+firelitdecoder.bdf
+fd34cc36f3d77bc46feacf1ecca1fb34
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Eight4bit
+# storage
+db|Microwave.(131).cnf
+db|Microwave.(131).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+eight4bit.v
+e84c31b26b4f9b8749c023ebf43fdb6
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Eight4bit:inst22
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(132).cnf
+db|Microwave.(132).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+8
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_ee6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Eight4bit:inst22|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Seven4bit
+# storage
+db|Microwave.(133).cnf
+db|Microwave.(133).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+seven4bit.v
+ef603a4c6541b5c3504d569201adf40
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Seven4bit:inst20
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(134).cnf
+db|Microwave.(134).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+7
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_de6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Seven4bit:inst20|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Six4bit
+# storage
+db|Microwave.(135).cnf
+db|Microwave.(135).cnf
+# case_insensitive
+# source_file
+six4bit.tdf
+b9d8ff6f8055f1985215cb6f4478c1
+7
+# used_port {
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Six4bit:inst19
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(136).cnf
+db|Microwave.(136).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+6
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_ce6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Six4bit:inst19|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Four4bit
+# storage
+db|Microwave.(137).cnf
+db|Microwave.(137).cnf
+# case_insensitive
+# source_file
+four4bit.tdf
+60c6b19414b944bda4146a8daaeb1178
+7
+# used_port {
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Four4bit:inst17
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(138).cnf
+db|Microwave.(138).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+4
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_ge6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Four4bit:inst17|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Two4Bit
+# storage
+db|Microwave.(139).cnf
+db|Microwave.(139).cnf
+# case_insensitive
+# source_file
+two4bit.tdf
+1b6bbb96a8413431ff23c078ec5627cc
+7
+# used_port {
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Two4Bit:inst15
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(140).cnf
+db|Microwave.(140).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+4
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+2
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_8e6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|FireLitDecoder:inst|Two4Bit:inst15|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Five3bit
+# storage
+db|Microwave.(142).cnf
+db|Microwave.(142).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+five3bit.v
+b883393c6cce6534ef73018387b57ac
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|Five3bit:inst5
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(143).cnf
+db|Microwave.(143).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+5
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_he6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|Five3bit:inst5|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Zero16bit
+# storage
+db|Microwave.(144).cnf
+db|Microwave.(144).cnf
+# case_insensitive
+# source_file
+zero16bit.tdf
+0fb4051f72be2458885cf1989a7ea5c
+7
+# used_port {
+result9
+-1
+3
+result8
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result15
+-1
+3
+result14
+-1
+3
+result13
+-1
+3
+result12
+-1
+3
+result11
+-1
+3
+result10
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|Zero16bit:inst3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(145).cnf
+db|Microwave.(145).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+16
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+0
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_9k6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result9
+-1
+3
+result8
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result15
+-1
+3
+result14
+-1
+3
+result13
+-1
+3
+result12
+-1
+3
+result11
+-1
+3
+result10
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3|Zero16bit:inst3|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+DDLight
+# storage
+db|Microwave.(149).cnf
+db|Microwave.(149).cnf
+# case_insensitive
+# source_file
+ddlight.bdf
+edc244ac923bd17e03a3aa8f5dd1646
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Displayer:inst6|DDLight:inst1
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+PrefabStatusJudge
+# storage
+db|Microwave.(141).cnf
+db|Microwave.(141).cnf
+# case_insensitive
+# source_file
+prefabstatusjudge.bdf
+85588416ac85550e91c39c78aaa933e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabStatusJudge:inst4
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|Microwave.(147).cnf
+db|Microwave.(147).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+ENP
+-1
+2
+A
+-1
+2
+}
+# hierarchies {
+PrefabStatus:inst16|PrefabStatusControl:inst5|74161:inst6
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+PrefabRAM_EN
+# storage
+db|Microwave.(148).cnf
+db|Microwave.(148).cnf
+# case_insensitive
+# source_file
+prefabram_en.bdf
+5489703077f95a128fb14d8e2326cbb2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Two3bit
+# storage
+db|Microwave.(150).cnf
+db|Microwave.(150).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+two3bit.v
+b194dcbec4ad697c41f75fa5fadf10
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Two3bit:inst2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Microwave.(151).cnf
+db|Microwave.(151).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+2
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_ie6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result
+-1
+3
+}
+# hierarchies {
+PrefabStatus:inst16|PrefabStatusControl:inst5|PrefabRAM_EN:inst|Two3bit:inst2|lpm_constant:lpm_constant_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+RAM10w8bit
+# storage
+db|Microwave.(153).cnf
+db|Microwave.(153).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+ram10w8bit.v
+3961ad32da26362d76c9a7a4e65a5e
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+PrefabStatus:inst16|RAM10w8bit:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+ALTERA_RESERVED_QISALTERA_RESERVED_QIS
+# end
+# entity
+altsyncram
+# storage
+db|Microwave.(154).cnf
+db|Microwave.(154).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|altsyncram.tdf
+67d9a3902c8a461c1d5750189e124f2
+7
+# user_parameter {
+BYTE_SIZE_BLOCK
+8
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+WIDTH_BYTEENA
+1
+PARAMETER_UNKNOWN
+DEF
+OPERATION_MODE
+SINGLE_PORT
+PARAMETER_UNKNOWN
+USR
+WIDTH_A
+8
+PARAMETER_SIGNED_DEC
+USR
+WIDTHAD_A
+4
+PARAMETER_SIGNED_DEC
+USR
+NUMWORDS_A
+10
+PARAMETER_SIGNED_DEC
+USR
+OUTDATA_REG_A
+CLOCK0
+PARAMETER_UNKNOWN
+USR
+ADDRESS_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_B
+1
+PARAMETER_UNKNOWN
+DEF
+WIDTHAD_B
+1
+PARAMETER_UNKNOWN
+DEF
+NUMWORDS_B
+1
+PARAMETER_UNKNOWN
+DEF
+INDATA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_WRADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_REG_B
+UNREGISTERED
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_BYTEENA_A
+1
+PARAMETER_SIGNED_DEC
+USR
+WIDTH_BYTEENA_B
+1
+PARAMETER_UNKNOWN
+DEF
+RAM_BLOCK_TYPE
+AUTO
+PARAMETER_UNKNOWN
+DEF
+BYTE_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_MIXED_PORTS
+DONT_CARE
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_PORT_A
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+USR
+READ_DURING_WRITE_MODE_PORT_B
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+DEF
+INIT_FILE
+PrefabFire.mif
+PARAMETER_UNKNOWN
+USR
+INIT_FILE_LAYOUT
+PORT_A
+PARAMETER_UNKNOWN
+DEF
+MAXIMUM_DEPTH
+0
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_INPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_INPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_OUTPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_OUTPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_A
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_B
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+ENABLE_ECC
+FALSE
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+altsyncram_qii1
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+wren_a
+-1
+3
+q_a
+-1
+3
+data_a
+-1
+3
+clocken0
+-1
+3
+clock0
+-1
+3
+address_a
+-1
+3
+wren_b
+-1
+1
+addressstall_b
+-1
+1
+addressstall_a
+-1
+1
+aclr1
+-1
+1
+aclr0
+-1
+1
+rden_b
+-1
+2
+rden_a
+-1
+2
+data_b
+-1
+2
+clocken3
+-1
+2
+clocken2
+-1
+2
+clocken1
+-1
+2
+clock1
+-1
+2
+byteena_b
+-1
+2
+byteena_a
+-1
+2
+address_b
+-1
+2
+}
+# hierarchies {
+PrefabStatus:inst16|RAM10w8bit:inst|altsyncram:altsyncram_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+altsyncram_qii1
+# storage
+db|Microwave.(155).cnf
+db|Microwave.(155).cnf
+# case_insensitive
+# source_file
+db|altsyncram_qii1.tdf
+7fba4ebbe85e74fe237af6b9682c5d6
+7
+# used_port {
+wren_a
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+data_a7
+-1
+3
+data_a6
+-1
+3
+data_a5
+-1
+3
+data_a4
+-1
+3
+data_a3
+-1
+3
+data_a2
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clocken0
+-1
+3
+clock0
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+prefabfire.mif
+f289c4b1b46c5841be9cee269beb4b
+}
+# hierarchies {
+PrefabStatus:inst16|RAM10w8bit:inst|altsyncram:altsyncram_component|altsyncram_qii1:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+RAM10w16bit
+# storage
+db|Microwave.(156).cnf
+db|Microwave.(156).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+ram10w16bit.v
+6a6fa94e36b227c5632610fa78309f68
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+PrefabStatus:inst16|RAM10w16bit:inst2
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+ALTERA_RESERVED_QISALTERA_RESERVED_QIS
+# end
+# entity
+altsyncram
+# storage
+db|Microwave.(157).cnf
+db|Microwave.(157).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|megafunctions|altsyncram.tdf
+67d9a3902c8a461c1d5750189e124f2
+7
+# user_parameter {
+BYTE_SIZE_BLOCK
+8
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+WIDTH_BYTEENA
+1
+PARAMETER_UNKNOWN
+DEF
+OPERATION_MODE
+SINGLE_PORT
+PARAMETER_UNKNOWN
+USR
+WIDTH_A
+16
+PARAMETER_SIGNED_DEC
+USR
+WIDTHAD_A
+4
+PARAMETER_SIGNED_DEC
+USR
+NUMWORDS_A
+10
+PARAMETER_SIGNED_DEC
+USR
+OUTDATA_REG_A
+CLOCK0
+PARAMETER_UNKNOWN
+USR
+ADDRESS_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_B
+1
+PARAMETER_UNKNOWN
+DEF
+WIDTHAD_B
+1
+PARAMETER_UNKNOWN
+DEF
+NUMWORDS_B
+1
+PARAMETER_UNKNOWN
+DEF
+INDATA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_WRADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_REG_B
+UNREGISTERED
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+DEF
+INDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WRCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+ADDRESS_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+OUTDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+RDCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+BYTEENA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+DEF
+WIDTH_BYTEENA_A
+1
+PARAMETER_SIGNED_DEC
+USR
+WIDTH_BYTEENA_B
+1
+PARAMETER_UNKNOWN
+DEF
+RAM_BLOCK_TYPE
+AUTO
+PARAMETER_UNKNOWN
+DEF
+BYTE_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_MIXED_PORTS
+DONT_CARE
+PARAMETER_UNKNOWN
+DEF
+READ_DURING_WRITE_MODE_PORT_A
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+USR
+READ_DURING_WRITE_MODE_PORT_B
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+DEF
+INIT_FILE
+PrefabTime.mif
+PARAMETER_UNKNOWN
+USR
+INIT_FILE_LAYOUT
+PORT_A
+PARAMETER_UNKNOWN
+DEF
+MAXIMUM_DEPTH
+0
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_INPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_INPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_OUTPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_OUTPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_A
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+CLOCK_ENABLE_CORE_B
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+DEF
+ENABLE_ECC
+FALSE
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone III
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+altsyncram_iki1
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+wren_a
+-1
+3
+q_a
+-1
+3
+data_a
+-1
+3
+clocken0
+-1
+3
+clock0
+-1
+3
+address_a
+-1
+3
+wren_b
+-1
+1
+addressstall_b
+-1
+1
+addressstall_a
+-1
+1
+aclr1
+-1
+1
+aclr0
+-1
+1
+rden_b
+-1
+2
+rden_a
+-1
+2
+data_b
+-1
+2
+clocken3
+-1
+2
+clocken2
+-1
+2
+clocken1
+-1
+2
+clock1
+-1
+2
+byteena_b
+-1
+2
+byteena_a
+-1
+2
+address_b
+-1
+2
+}
+# hierarchies {
+PrefabStatus:inst16|RAM10w16bit:inst2|altsyncram:altsyncram_component
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+altsyncram_iki1
+# storage
+db|Microwave.(158).cnf
+db|Microwave.(158).cnf
+# case_insensitive
+# source_file
+db|altsyncram_iki1.tdf
+c27cedcda2bbc55791bc26a04d29f53b
+7
+# used_port {
+wren_a
+-1
+3
+q_a9
+-1
+3
+q_a8
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a15
+-1
+3
+q_a14
+-1
+3
+q_a13
+-1
+3
+q_a12
+-1
+3
+q_a11
+-1
+3
+q_a10
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+data_a9
+-1
+3
+data_a8
+-1
+3
+data_a7
+-1
+3
+data_a6
+-1
+3
+data_a5
+-1
+3
+data_a4
+-1
+3
+data_a3
+-1
+3
+data_a2
+-1
+3
+data_a15
+-1
+3
+data_a14
+-1
+3
+data_a13
+-1
+3
+data_a12
+-1
+3
+data_a11
+-1
+3
+data_a10
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clocken0
+-1
+3
+clock0
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+prefabtime.mif
+b821a9f398232c6726705ead08a888e
+}
+# hierarchies {
+PrefabStatus:inst16|RAM10w16bit:inst2|altsyncram:altsyncram_component|altsyncram_iki1:auto_generated
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+PrefabStatusControl
+# storage
+db|Microwave.(152).cnf
+db|Microwave.(152).cnf
+# case_insensitive
+# source_file
+prefabstatuscontrol.bdf
+e958c5fbf7cd51296063d9a31c9aebcf
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PrefabStatus:inst16|PrefabStatusControl:inst5
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+4bitDffC
+# storage
+db|Microwave.(159).cnf
+db|Microwave.(159).cnf
+# case_insensitive
+# source_file
+4bitdffc.bdf
+1e95dabfb6918db1f5b5917adc6b5d9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PrefabStatus:inst16|4bitDffC:inst10
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+PrefabStatus
+# storage
+db|Microwave.(146).cnf
+db|Microwave.(146).cnf
+# case_insensitive
+# source_file
+prefabstatus.bdf
+a9bd9c76b6fd957a54e88ffbb417f6c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PrefabStatus:inst16
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Displayer
+# storage
+db|Microwave.(161).cnf
+db|Microwave.(161).cnf
+# case_insensitive
+# source_file
+displayer.bdf
+7554546be50944a93736aa4383f470
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Displayer:inst6
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Displayer_Number
+# storage
+db|Microwave.(162).cnf
+db|Microwave.(162).cnf
+# case_insensitive
+# source_file
+displayer_number.bdf
+439eab29c655f32b1f257a99be6c7e9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Displayer:inst6|Displayer_Number:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+FireLit
+# storage
+db|Microwave.(163).cnf
+db|Microwave.(163).cnf
+# case_insensitive
+# source_file
+firelit.bdf
+b21f2b1b5696c7e4719c6ed4a7cb5d7a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Displayer:inst6|FireLit:inst3
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+TimeStatus
+# storage
+db|Microwave.(165).cnf
+db|Microwave.(165).cnf
+# case_insensitive
+# source_file
+timestatus.bdf
+5c3ed06df019877de7b48b5a42c01e90
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+TimeStatus:inst4
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+FireStatus_test
+# storage
+db|Microwave.(166).cnf
+db|Microwave.(166).cnf
+# case_insensitive
+# source_file
+firestatus_test.bdf
+df17b242ba4b1e6e3165d18d2e71b7ba
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+TimeStatusControl_test
+# storage
+db|Microwave.(167).cnf
+db|Microwave.(167).cnf
+# case_insensitive
+# source_file
+timestatuscontrol_test.bdf
+8baa4d2445efb4d0ab2429ae9fc951c0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+TimeStatus_test
+# storage
+db|Microwave.(164).cnf
+db|Microwave.(164).cnf
+# case_insensitive
+# source_file
+timestatus_test.bdf
+71f2fbf5a8d8df79b164b43cf347bb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Microwave_test
+# storage
+db|Microwave.(55).cnf
+db|Microwave.(55).cnf
+# case_insensitive
+# source_file
+microwave_test.bdf
+5e17e98ddf234a86e45bee1c398c1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# entity
+Microwave
+# storage
+db|Microwave.(160).cnf
+db|Microwave.(160).cnf
+# case_insensitive
+# source_file
+microwave.bdf
+80deadea46c4e5bb49619feb17862989
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# lmf
+|altera|91sp2|quartus|lmf|altsyn.lmf
+bbbb84af4e7019201bb1fc50d2957c
+# macro_sequence
+
+# end
+# complete
+

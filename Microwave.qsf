@@ -1,0 +1,222 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+# Date created = 13:43:40  December 11, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Microwave_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C5E144C8
+set_global_assignment -name TOP_LEVEL_ENTITY Microwave
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:43:40  DECEMBER 11, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name EDA_DESIGN_ENTRY_SYNTHESIS_TOOL "Design Compiler"
+set_global_assignment -name EDA_INPUT_VCC_NAME VDD -section_id eda_design_synthesis
+set_global_assignment -name EDA_LMF_FILE altsyn.lmf -section_id eda_design_synthesis
+set_global_assignment -name EDA_INPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_design_synthesis
+set_global_assignment -name EDA_SIMULATION_TOOL "Active-HDL (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_TIMING_ANALYSIS_TOOL "PrimeTime (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_timing_analysis
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name BDF_FILE Scanner.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Scanner.vwf
+set_global_assignment -name BDF_FILE Trigger.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Trigger.vwf
+set_global_assignment -name BDF_FILE 4to2Encoder.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE 4to2Encoder.vwf
+set_global_assignment -name BDF_FILE KeyEncoder.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE KeyEncoder.vwf
+set_global_assignment -name SIMULATION_MODE TIMING
+set_global_assignment -name BDF_FILE MatrixKeyBoard.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MatrixKeyBoard.vwf
+set_global_assignment -name BDF_FILE MainStatusMachine.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MainStatusMachine.vwf
+set_global_assignment -name BDF_FILE MainStatusJudge.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MainStatusJudge.vwf
+set_global_assignment -name SETUP_HOLD_DETECTION OFF
+set_global_assignment -name BDF_FILE M25Counter.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE M25Counter.vwf
+set_global_assignment -name BDF_FILE Blinker.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Blinker.vwf
+set_global_assignment -name QIP_FILE IsDigit.qip
+set_global_assignment -name QIP_FILE FireConstant.qip
+set_global_assignment -name QIP_FILE Constant_4bit.qip
+set_global_assignment -name BDF_FILE FireStatus.bdf
+set_global_assignment -name QIP_FILE Fire_Mux.qip
+set_global_assignment -name QIP_FILE Fire_Constant.qip
+set_global_assignment -name QIP_FILE Zero4bit.qip
+set_global_assignment -name QIP_FILE ALessThanB4bit.qip
+set_global_assignment -name QIP_FILE One4bit.qip
+set_global_assignment -name QIP_FILE ALessOrEqualB4Bit.qip
+set_global_assignment -name QIP_FILE Two4Bit.qip
+set_global_assignment -name QIP_FILE MUX2CH8Bit.qip
+set_global_assignment -name BDF_FILE FireValueLimit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FireValueLimit.vwf
+set_global_assignment -name BDF_FILE FireStatusControl.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FireStatusControl.vwf
+set_global_assignment -name BDF_FILE 4bitDff.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE 4bitDff.vwf
+set_global_assignment -name BDF_FILE FireDENControl.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FireDENControl.vwf
+set_global_assignment -name QIP_FILE mux4Ch4Bit.qip
+set_global_assignment -name BDF_FILE FireSourceSelector.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FireSourceSelector.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FireStatus.vwf
+set_global_assignment -name BDF_FILE FireStatus_test.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FireStatus_test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FireStatus_prefab.vwf
+set_global_assignment -name BDF_FILE TimeStatus.bdf
+set_global_assignment -name QIP_FILE Three4bit.qip
+set_global_assignment -name BDF_FILE TimeStatusControl.bdf
+set_global_assignment -name BDF_FILE TimeDENControl.bdf
+set_global_assignment -name BDF_FILE TimeSourceSelector.bdf
+set_global_assignment -name BDF_FILE TimeValueLimit.bdf
+set_global_assignment -name QIP_FILE MUX2Ch16Bits.qip
+set_global_assignment -name QIP_FILE ALessOrEqualB16bit.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE TimeValueLimit.vwf
+set_global_assignment -name QIP_FILE LowerThanSix4bit.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE TimeStatusControl.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TimeDENControl.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TimeSourceSelector.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TimeStatus_noPrefab.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TimeStatus_Prefab.vwf
+set_global_assignment -name BDF_FILE TimeStatus_test.bdf
+set_global_assignment -name QIP_FILE M10CountDown.qip
+set_global_assignment -name QIP_FILE M6CountDown.qip
+set_global_assignment -name BDF_FILE CountDown.bdf
+set_global_assignment -name QIP_FILE Compare4bit.qip
+set_global_assignment -name QIP_FILE Ten4bit.qip
+set_global_assignment -name QIP_FILE Nine4bit.qip
+set_global_assignment -name QIP_FILE Five4bit.qip
+set_global_assignment -name BDF_FILE CountDownTimer.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CountDownTimer.vwf
+set_global_assignment -name QIP_FILE Equal4bit.qip
+set_global_assignment -name QIP_FILE Equal3bit.qip
+set_global_assignment -name QIP_FILE Four3bit.qip
+set_global_assignment -name BDF_FILE CountDownControl.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CountDownControl.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CountDown.vwf
+set_global_assignment -name QIP_FILE MUX8ch16bit.qip
+set_global_assignment -name QIP_FILE StuNumber.qip
+set_global_assignment -name QIP_FILE MUX8ch4bit.qip
+set_global_assignment -name BDF_FILE Displayer_Number.bdf
+set_global_assignment -name QIP_FILE MUX2ch4bit.qip
+set_global_assignment -name BDF_FILE NumberFlashControler.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE NumberFlashControler.vwf
+set_global_assignment -name QIP_FILE Fourteen4bit.qip
+set_global_assignment -name BDF_FILE OpenDoor.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE OpenDoor.vwf
+set_global_assignment -name QIP_FILE Seven4bit.qip
+set_global_assignment -name QIP_FILE Eight4bit.qip
+set_global_assignment -name BDF_FILE FireLitDecoder.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FireLitDecoder.vwf
+set_global_assignment -name QIP_FILE Zero16bit.qip
+set_global_assignment -name QIP_FILE Five3bit.qip
+set_global_assignment -name BDF_FILE FireLit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FireLit.vwf
+set_global_assignment -name BDF_FILE DDLight.bdf
+set_global_assignment -name BDF_FILE Displayer.bdf
+set_global_assignment -name BDF_FILE PrefabStatus.bdf
+set_global_assignment -name BDF_FILE Microwave.bdf
+set_global_assignment -name MIF_FILE PrefabFire.mif
+set_global_assignment -name MIF_FILE PrefabTime.mif
+set_global_assignment -name QIP_FILE RAM10w8bit.qip
+set_global_assignment -name QIP_FILE RAM10w16bit.qip
+set_global_assignment -name BDF_FILE PrefabStatusControl.bdf
+set_global_assignment -name QIP_FILE Two3bit.qip
+set_global_assignment -name BDF_FILE PrefabRAM_EN.bdf
+set_global_assignment -name BDF_FILE PrefabStatusJudge.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE PrefabStatusJudge.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE PrefabStatusControl.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE PrefabStatus.vwf
+set_global_assignment -name BDF_FILE 4bitDffC.bdf
+set_global_assignment -name BDF_FILE Microwave_test.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Microwave_test.vwf
+set_global_assignment -name BDF_FILE TimeStatusControl_test.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Microwave.vwf
+set_global_assignment -name BDF_FILE CountDown_test.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Microwave_test_prefab.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Microwave_test.vwf
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_53 -to A[3]
+set_location_assignment PIN_52 -to A[2]
+set_location_assignment PIN_51 -to A[1]
+set_location_assignment PIN_50 -to A[0]
+set_location_assignment PIN_59 -to B[3]
+set_location_assignment PIN_58 -to B[2]
+set_location_assignment PIN_55 -to B[1]
+set_location_assignment PIN_54 -to B[0]
+set_location_assignment PIN_66 -to C[3]
+set_location_assignment PIN_65 -to C[2]
+set_location_assignment PIN_64 -to C[1]
+set_location_assignment PIN_60 -to C[0]
+set_location_assignment PIN_70 -to D[3]
+set_location_assignment PIN_69 -to D[2]
+set_location_assignment PIN_68 -to D[1]
+set_location_assignment PIN_67 -to D[0]
+set_location_assignment PIN_2 -to Col[3]
+set_location_assignment PIN_7 -to Col[2]
+set_location_assignment PIN_4 -to Col[1]
+set_location_assignment PIN_3 -to Col[0]
+set_location_assignment EDGE_TOP -to Row[3]
+set_location_assignment PIN_144 -to Row[2]
+set_location_assignment PIN_143 -to Row[1]
+set_location_assignment PIN_142 -to Row[0]
+set_location_assignment PIN_39 -to CP_High
+set_location_assignment PIN_34 -to CP_Low
+set_location_assignment PIN_43 -to DDLight
+set_location_assignment PIN_44 -to FireLit[9]
+set_location_assignment PIN_46 -to FireLit[8]
+set_location_assignment PIN_49 -to FireLit[7]
+set_location_assignment PIN_71 -to FireLit[6]
+set_location_assignment PIN_72 -to FireLit[5]
+set_location_assignment PIN_73 -to FireLit[4]
+set_location_assignment PIN_74 -to FireLit[3]
+set_location_assignment PIN_75 -to FireLit[2]
+set_location_assignment PIN_76 -to FireLit[1]
+set_location_assignment PIN_77 -to FireLit[0]
+set_location_assignment PIN_79 -to OpenLit
+set_location_assignment PIN_98 -to Reset
+set_location_assignment PIN_85 -to WarningLit
+set_global_assignment -name MISC_FILE "D:/Orange/Study/Electricitiy/LD trials/FPGA projects/Microwave_release/Microwave.dpf"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

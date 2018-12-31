@@ -1,0 +1,257 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -7.257
+TNS   : -216.008
+
+Type  : Slow 1200mV 85C Model Setup 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -4.690
+TNS   : -93.866
+
+Type  : Slow 1200mV 85C Model Setup 'CP_High'
+Slack : -3.169
+TNS   : -78.953
+
+Type  : Slow 1200mV 85C Model Setup 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -2.569
+TNS   : -10.276
+
+Type  : Slow 1200mV 85C Model Setup 'CP_Low'
+Slack : -1.618
+TNS   : -9.540
+
+Type  : Slow 1200mV 85C Model Hold 'CP_Low'
+Slack : -1.849
+TNS   : -8.971
+
+Type  : Slow 1200mV 85C Model Hold 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -1.498
+TNS   : -11.608
+
+Type  : Slow 1200mV 85C Model Hold 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -0.487
+TNS   : -0.487
+
+Type  : Slow 1200mV 85C Model Hold 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -0.088
+TNS   : -0.352
+
+Type  : Slow 1200mV 85C Model Hold 'CP_High'
+Slack : 0.101
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -7.947
+TNS   : -97.697
+
+Type  : Slow 1200mV 85C Model Recovery 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -0.303
+TNS   : -1.976
+
+Type  : Slow 1200mV 85C Model Recovery 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -0.053
+TNS   : -0.212
+
+Type  : Slow 1200mV 85C Model Removal 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -3.395
+TNS   : -16.188
+
+Type  : Slow 1200mV 85C Model Removal 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -0.009
+TNS   : -0.036
+
+Type  : Slow 1200mV 85C Model Removal 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -0.008
+TNS   : -0.040
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CP_High'
+Slack : -3.201
+TNS   : -107.952
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CP_Low'
+Slack : -3.000
+TNS   : -13.409
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -1.487
+TNS   : -62.272
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -1.487
+TNS   : -60.967
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 0C Model Setup 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -6.787
+TNS   : -201.458
+
+Type  : Slow 1200mV 0C Model Setup 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -4.402
+TNS   : -84.531
+
+Type  : Slow 1200mV 0C Model Setup 'CP_High'
+Slack : -2.820
+TNS   : -69.062
+
+Type  : Slow 1200mV 0C Model Setup 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -2.298
+TNS   : -9.192
+
+Type  : Slow 1200mV 0C Model Setup 'CP_Low'
+Slack : -1.437
+TNS   : -8.318
+
+Type  : Slow 1200mV 0C Model Hold 'CP_Low'
+Slack : -1.802
+TNS   : -8.755
+
+Type  : Slow 1200mV 0C Model Hold 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -1.383
+TNS   : -10.916
+
+Type  : Slow 1200mV 0C Model Hold 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -0.346
+TNS   : -0.346
+
+Type  : Slow 1200mV 0C Model Hold 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -0.097
+TNS   : -0.388
+
+Type  : Slow 1200mV 0C Model Hold 'CP_High'
+Slack : 0.051
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -7.309
+TNS   : -90.296
+
+Type  : Slow 1200mV 0C Model Recovery 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -0.245
+TNS   : -0.980
+
+Type  : Slow 1200mV 0C Model Recovery 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -3.250
+TNS   : -15.936
+
+Type  : Slow 1200mV 0C Model Removal 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -0.081
+TNS   : -0.324
+
+Type  : Slow 1200mV 0C Model Removal 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -0.036
+TNS   : -0.180
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CP_High'
+Slack : -3.201
+TNS   : -107.952
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CP_Low'
+Slack : -3.000
+TNS   : -13.409
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -1.487
+TNS   : -60.967
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -1.487
+TNS   : -59.177
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Fast 1200mV 0C Model Setup 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -2.659
+TNS   : -75.825
+
+Type  : Fast 1200mV 0C Model Setup 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -1.792
+TNS   : -29.793
+
+Type  : Fast 1200mV 0C Model Setup 'CP_High'
+Slack : -0.867
+TNS   : -11.044
+
+Type  : Fast 1200mV 0C Model Setup 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -0.669
+TNS   : -2.676
+
+Type  : Fast 1200mV 0C Model Setup 'CP_Low'
+Slack : -0.237
+TNS   : -0.472
+
+Type  : Fast 1200mV 0C Model Hold 'CP_Low'
+Slack : -0.841
+TNS   : -4.095
+
+Type  : Fast 1200mV 0C Model Hold 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -0.551
+TNS   : -4.660
+
+Type  : Fast 1200mV 0C Model Hold 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -0.285
+TNS   : -0.447
+
+Type  : Fast 1200mV 0C Model Hold 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -0.009
+TNS   : -0.036
+
+Type  : Fast 1200mV 0C Model Hold 'CP_High'
+Slack : 0.097
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -3.446
+TNS   : -39.531
+
+Type  : Fast 1200mV 0C Model Recovery 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -0.081
+TNS   : -0.500
+
+Type  : Fast 1200mV 0C Model Recovery 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -1.470
+TNS   : -6.832
+
+Type  : Fast 1200mV 0C Model Removal 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -0.030
+TNS   : -0.150
+
+Type  : Fast 1200mV 0C Model Removal 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : 0.073
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CP_High'
+Slack : -3.000
+TNS   : -46.786
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CP_Low'
+Slack : -3.000
+TNS   : -11.003
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MatrixKeyBoard:inst|Trigger:inst2|Q0'
+Slack : -1.000
+TNS   : -41.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CountDown:inst5|CountDownControl:inst13|inst5'
+Slack : -1.000
+TNS   : -29.148
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'M25Counter:inst3|74161:inst1|f74161:sub|9'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------
